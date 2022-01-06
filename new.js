@@ -7,7 +7,7 @@ let monthInput = document.getElementById("monthInput");
 let yearInput = document.getElementById("yearInput");
 let returnbtn = document.getElementById("return");
 
-let months = [ "February", "January", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
 
 let current = new Date();
 let currentmonth = current.getMonth();
