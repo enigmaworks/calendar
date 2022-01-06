@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/new.js" type="module"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Calendars</title>
+</head>
+<body>
+    <div class="calendar">
+        <div class="calendar-header">
+            <span id="month"></span>
+            <span id="year"></span>
+        </div>
+        <section>
+            <header class="calendar-labels">
+                <div>sun</div>
+                <div>mon</div>
+                <div>tues</div>
+                <div>wed</div>
+                <div>thurs</div>
+                <div>fri</div>
+                <div>sat</div>
+            </header>
+            <main id="calendar" class="calendar-dates">
+                
+            </main>
+        </section>
+    </div>
+    <div class="calendar-input">
+        <select name="month" id="monthInput">
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+        </select>
+        <input value="2021" type="number" id="yearInput" min="1000" max="2999">
+        <button id="return">This Month</button>
+    </div>
+</body>
+</html>
